@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2c2b2bab-842a-43a1-a09a-40084ac2ed05": {
+      "ProjectGuid": "2c2b2bab-842a-43a1-a09a-40084ac2ed05",
+      "DisplayName": "App",
+      "ColorIndex": 0
+    },
+    "3d70b1da-3c57-43b4-84b9-7a7927570931": {
+      "ProjectGuid": "3d70b1da-3c57-43b4-84b9-7a7927570931",
+      "DisplayName": "App.Service",
+      "ColorIndex": 1
+    },
+    "e2b09cb5-2856-4d48-9723-f7c2dd51ef75": {
+      "ProjectGuid": "e2b09cb5-2856-4d48-9723-f7c2dd51ef75",
+      "DisplayName": "App.Service",
+      "ColorIndex": 2
+    },
+    "dd8558c5-522b-472c-b964-390e42627a7b": {
+      "ProjectGuid": "dd8558c5-522b-472c-b964-390e42627a7b",
+      "DisplayName": "App.MVP",
+      "ColorIndex": 3
+    },
+    "833bce37-fbe1-49c1-ba38-f74c5876dfae": {
+      "ProjectGuid": "833bce37-fbe1-49c1-ba38-f74c5876dfae",
+      "DisplayName": "App.Core",
+      "ColorIndex": 4
+    },
+    "6b5eb7f4-ac78-41a8-9dc6-67c67a0cd584": {
+      "ProjectGuid": "6b5eb7f4-ac78-41a8-9dc6-67c67a0cd584",
+      "DisplayName": "App.DataAccess",
+      "ColorIndex": 5
+    },
+    "40e12ebc-8e69-484f-8670-339ca621b9e9": {
+      "ProjectGuid": "40e12ebc-8e69-484f-8670-339ca621b9e9",
+      "DisplayName": "App.Domain",
+      "ColorIndex": 6
+    },
+    "6abb14ac-fa4b-487e-8720-348e9e9c244e": {
+      "ProjectGuid": "6abb14ac-fa4b-487e-8720-348e9e9c244e",
+      "DisplayName": "App.DTOs",
+      "ColorIndex": 7
+    },
+    "1bd5effd-dcff-4810-9922-23cb4359de38": {
+      "ProjectGuid": "1bd5effd-dcff-4810-9922-23cb4359de38",
+      "DisplayName": "App.EntityMapper",
+      "ColorIndex": 8
+    },
+    "4ff17de5-fc8a-4459-9dde-5591cbdfadf9": {
+      "ProjectGuid": "4ff17de5-fc8a-4459-9dde-5591cbdfadf9",
+      "DisplayName": "App.SQLManagement",
+      "ColorIndex": 9
+    },
+    "7d789201-e37a-4a61-9484-113260c4e817": {
+      "ProjectGuid": "7d789201-e37a-4a61-9484-113260c4e817",
+      "DisplayName": "App.DB",
+      "ColorIndex": 10
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "57b0c72f-c0c5-4d53-9c8f-41ef1b8ad86a": {
+      "ProjectGuid": "57b0c72f-c0c5-4d53-9c8f-41ef1b8ad86a",
+      "DisplayName": "App",
+      "ColorIndex": 11
+    },
+    "8b2523fd-ff34-440f-a94b-5aedc90d2711": {
+      "ProjectGuid": "8b2523fd-ff34-440f-a94b-5aedc90d2711",
+      "DisplayName": "App.Service",
+      "ColorIndex": 12
+    }
+  },
+  "NextColorIndex": 13
+}
