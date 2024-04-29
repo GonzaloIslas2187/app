@@ -1199,20 +1199,6 @@
           "System.Xml.ReaderWriter": "4.0.11"
         }
       },
-      "App.Core/1.0.0": {
-        "dependencies": {
-          "App.DTOs": "1.0.0",
-          "App.DataAccess": "1.0.0",
-          "AutoMapper": "13.0.1",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.29",
-          "Microsoft.AspNetCore.Authorization": "6.0.29",
-          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
-          "Microsoft.IdentityModel.Tokens": "7.5.1"
-        },
-        "runtime": {
-          "App.Core.dll": {}
-        }
-      },
       "App.DataAccess/1.0.0": {
         "dependencies": {
           "App.Domain": "1.0.0",
@@ -1235,24 +1221,11 @@
       "App.EntityMapper/1.0.0": {
         "dependencies": {
           "App.DTOs": "1.0.0",
-          "App.Domain": "1.0.0",
-          "AutoMapper": "13.0.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1"
+          "App.DataAccess": "1.0.0",
+          "AutoMapper": "13.0.1"
         },
         "runtime": {
           "App.EntityMapper.dll": {}
-        }
-      },
-      "App.MVP/1.0.0": {
-        "dependencies": {
-          "App.Core": "1.0.0",
-          "App.DataAccess": "1.0.0",
-          "App.EntityMapper": "1.0.0",
-          "App.SQLManagement": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1"
-        },
-        "runtime": {
-          "App.MVP.dll": {}
         }
       },
       "App.SQLManagement/1.0.0": {
@@ -1263,6 +1236,14 @@
         },
         "runtime": {
           "App.SQLManagement.dll": {}
+        }
+      },
+      "App.Core.Reference/1.0.0.0": {
+        "runtime": {
+          "App.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -2134,11 +2115,6 @@
       "path": "system.xml.xdocument/4.0.11",
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
-    "App.Core/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "App.DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -2159,13 +2135,13 @@
       "serviceable": false,
       "sha512": ""
     },
-    "App.MVP/1.0.0": {
+    "App.SQLManagement/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "App.SQLManagement/1.0.0": {
-      "type": "project",
+    "App.Core.Reference/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

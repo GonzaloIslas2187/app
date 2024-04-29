@@ -70,7 +70,12 @@
       "ProjectGuid": "8b2523fd-ff34-440f-a94b-5aedc90d2711",
       "DisplayName": "App.Service",
       "ColorIndex": 12
+    },
+    "d2c6e182-9a1e-4aad-ae3c-919ba0b8da8e": {
+      "ProjectGuid": "d2c6e182-9a1e-4aad-ae3c-919ba0b8da8e",
+      "DisplayName": "App.EntityMapper",
+      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 13
+  "NextColorIndex": 14
 }

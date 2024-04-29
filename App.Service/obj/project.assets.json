@@ -1838,9 +1838,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "App.DTOs": "1.0.0",
-          "App.Domain": "1.0.0",
-          "AutoMapper": "13.0.1",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1"
+          "App.DataAccess": "1.0.0",
+          "AutoMapper": "13.0.1"
         },
         "compile": {
           "bin/placeholder/App.EntityMapper.dll": {}
@@ -5960,18 +5959,18 @@
     },
     "App.DataAccess/1.0.0": {
       "type": "project",
-      "path": "../../App.DataAccess/App.DataAccess.csproj",
-      "msbuildProject": "../../App.DataAccess/App.DataAccess.csproj"
+      "path": "../App.DataAccess/App.DataAccess.csproj",
+      "msbuildProject": "../App.DataAccess/App.DataAccess.csproj"
     },
     "App.Domain/1.0.0": {
       "type": "project",
-      "path": "../../App.Domain/App.Domain.csproj",
-      "msbuildProject": "../../App.Domain/App.Domain.csproj"
+      "path": "../App.Domain/App.Domain.csproj",
+      "msbuildProject": "../App.Domain/App.Domain.csproj"
     },
     "App.DTOs/1.0.0": {
       "type": "project",
-      "path": "../../App.DTOs/App.DTOs.csproj",
-      "msbuildProject": "../../App.DTOs/App.DTOs.csproj"
+      "path": "../App.DTOs/App.DTOs.csproj",
+      "msbuildProject": "../App.DTOs/App.DTOs.csproj"
     },
     "App.EntityMapper/1.0.0": {
       "type": "project",
@@ -5985,8 +5984,8 @@
     },
     "App.SQLManagement/1.0.0": {
       "type": "project",
-      "path": "../../App.SQLManagement/App.SQLManagement.csproj",
-      "msbuildProject": "../../App.SQLManagement/App.SQLManagement.csproj"
+      "path": "../App.SQLManagement/App.SQLManagement.csproj",
+      "msbuildProject": "../App.SQLManagement/App.SQLManagement.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6032,6 +6031,9 @@
           "projectReferences": {
             "C:\\Users\\Gongo\\source\\repos\\App.MVP\\App.MVP.csproj": {
               "projectPath": "C:\\Users\\Gongo\\source\\repos\\App.MVP\\App.MVP.csproj"
+            },
+            "C:\\Users\\Gongo\\source\\repos\\app\\App.MVP\\App.MVP.csproj": {
+              "projectPath": "C:\\Users\\Gongo\\source\\repos\\app\\App.MVP\\App.MVP.csproj"
             }
           }
         }

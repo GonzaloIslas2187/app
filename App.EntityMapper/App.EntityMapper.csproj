@@ -8,12 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\App.Domain\App.Domain.csproj" />
-    <ProjectReference Include="..\..\App.DTOs\App.DTOs.csproj" />
+    <ProjectReference Include="..\App.DataAccess\App.DataAccess.csproj" />
+    <ProjectReference Include="..\App.DTOs\App.DTOs.csproj" />
   </ItemGroup>
 
 </Project>
